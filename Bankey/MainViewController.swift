@@ -13,6 +13,7 @@ class MainViewController: UITabBarController {
         super.viewDidLoad()
         setupViews()
         setupTabBar()
+        setStatusBar()
     }
 
     private func setupViews() {
@@ -46,12 +47,6 @@ class MainViewController: UITabBarController {
     private func setupTabBar() {
         tabBar.tintColor = appColor
         tabBar.isTranslucent = false
-    }
-}
-
-class AccountSummaryViewController: UIViewController {
-    override func viewDidLoad() {
-        view.backgroundColor = .systemGreen
     }
 }
 
