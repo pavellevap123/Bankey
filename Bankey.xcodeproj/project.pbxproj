@@ -18,6 +18,7 @@
 		8B32E02A2892D4EE00DAF5D9 /* CurrencyFormaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32E0292892D4EE00DAF5D9 /* CurrencyFormaterTests.swift */; };
 		8B32E02C2892E20500DAF5D9 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32E02B2892E20500DAF5D9 /* NSNotificationName.swift */; };
 		8B32E02E2892E3EF00DAF5D9 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32E02D2892E3EF00DAF5D9 /* UITextField+SecureToggle.swift */; };
+		8B32E0312894016100DAF5D9 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32E0302894016100DAF5D9 /* ShakeyBellView.swift */; };
 		8B69B246288F45EF00BA400C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69B245288F45EF00BA400C /* AppDelegate.swift */; };
 		8B69B24A288F45EF00BA400C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69B249288F45EF00BA400C /* LoginViewController.swift */; };
 		8B69B24F288F45F000BA400C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B69B24E288F45F000BA400C /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		8B32E0292892D4EE00DAF5D9 /* CurrencyFormaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormaterTests.swift; sourceTree = "<group>"; };
 		8B32E02B2892E20500DAF5D9 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		8B32E02D2892E3EF00DAF5D9 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		8B32E0302894016100DAF5D9 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		8B69B242288F45EF00BA400C /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B69B245288F45EF00BA400C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B69B249288F45EF00BA400C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
 		};
+		8B32E02F2894013A00DAF5D9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8B32E0302894016100DAF5D9 /* ShakeyBellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		8B69B239288F45EF00BA400C = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 				8B0535B628902CD200226CEA /* Onboarding */,
 				8BE51F1428917EAD00CBFCA4 /* AccountSummary */,
 				8B0535C3289081DB00226CEA /* Utils */,
+				8B32E02F2894013A00DAF5D9 /* Components */,
 				8B69B259288F488800BA400C /* Files */,
 			);
 			path = Bankey;
@@ -313,6 +324,7 @@
 				8B0535C928908B3400226CEA /* MainViewController.swift in Sources */,
 				8BE51F1728917EFA00CBFCA4 /* AccountSummaryViewController.swift in Sources */,
 				8B69B246288F45EF00BA400C /* AppDelegate.swift in Sources */,
+				8B32E0312894016100DAF5D9 /* ShakeyBellView.swift in Sources */,
 				8B0535B828902D0B00226CEA /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
